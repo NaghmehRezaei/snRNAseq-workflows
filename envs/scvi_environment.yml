@@ -1,0 +1,11 @@
+name: scvi-env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - scvi-tools
+  - scanpy
+  - anndata
+  - pytorch
+  - cudatoolkit
