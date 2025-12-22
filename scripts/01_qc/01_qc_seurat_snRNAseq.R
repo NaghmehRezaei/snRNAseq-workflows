@@ -36,6 +36,9 @@ seu <- readRDS(seurat_path)
 # ---------------------------
 # 2. Compute QC metrics
 # ---------------------------
+# NOTE:
+# For some snRNA-seq datasets, percent.mt filtering may be relaxed
+# or omitted depending on tissue type and library preparation protocol.
 
 # Percentage of mitochondrial genes
 # (snRNA-seq often has lower mitochondrial content than scRNA-seq)
