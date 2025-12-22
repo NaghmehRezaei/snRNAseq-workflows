@@ -1,5 +1,8 @@
 # snRNAseq-workflows
 
+**Languages:** R, Python  
+**Frameworks:** Seurat, Harmony, scVI 
+
 This repository contains reproducible **single-nucleus RNA-seq (snRNA-seq) analysis workflows**
 used in real research projects. The workflows cover quality control, normalization,
 integration, clustering, annotation, and downstream analyses, including
