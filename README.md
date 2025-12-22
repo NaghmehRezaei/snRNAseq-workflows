@@ -84,6 +84,24 @@ level, hepatocytes are subclustered in a cell-type–specific manner.
 4. Apply conservative subclustering
 5. Annotate subclusters using known zonation and functional markers
 
+---
+
+## 🛠 Languages & tools
+
+- **R**
+  - Seurat (QC, normalization, clustering, annotation)
+  - Harmony (batch correction)
+  - ggplot2 (visualization)
+  - SCDS (doublet detection, dataset-dependent)
+
+- **Python**
+  - scVI (latent space modeling, representation learning)
+  - PyTorch backend
+  - CellBender (ambient RNA / doublet-aware correction, dataset-dependent)
+
+Tool selection varies by dataset and experimental design.
+
+
 ### Outputs
 - Subclustered and annotated hepatocyte Seurat objects (`.rds`)
 - Marker gene tables (`.csv`)
