@@ -13,6 +13,7 @@ with an emphasis on:
 ---
 
 ## 📁 Repository structure
+<pre>
 snRNAseq-workflows/
 ├── data/
 │   └── example_metadata/        # Example metadata tables (no raw sequencing data)
@@ -27,6 +28,8 @@ snRNAseq-workflows/
 ├── figures/                     # Generated figures (PNG/PDF)
 ├── results/                     # Result tables and summaries
 └── README.md
+</pre>
+
 
 
 ---
