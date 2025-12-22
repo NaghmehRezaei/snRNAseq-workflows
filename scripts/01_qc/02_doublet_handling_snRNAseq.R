@@ -32,15 +32,20 @@ qc_path <- "results/seurat_qc_filtered.rds"
 seu_qc <- readRDS(qc_path)
 
 # ---------------------------
-# 2. Strategy A: CellBender
+# ---------------------------
+# 2. Strategy A: CellBender(python-based)
 # ---------------------------
 
 # NOTE:
-# If CellBender was run upstream (recommended when raw matrices exist),
-# the resulting filtered matrix is assumed to be largely free of doublets.
+# CellBender (remove-background) models ambient RNA contamination
+# and technical background in droplet-based single-nucleus data.
 #
-# In this case, this step serves as documentation only,
-# and no additional filtering is applied here.
+# While CellBender may reduce apparent doublets indirectly by
+# improving signal-to-noise, it does NOT explicitly perform
+# doublet classification or scoring.
+#
+# Additional doublet detection (e.g., scds) may still be applied
+# depending on dataset characteristics and study goals.
 
 # Example (documentation only):
 # seu_qc <- Read10X_h5("cellbender_filtered.h5")
