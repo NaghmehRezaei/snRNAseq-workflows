@@ -15,18 +15,19 @@ with an emphasis on:
 ## 📁 Repository structure
 snRNAseq-workflows/
 ├── data/
-│ └── example_metadata/ # Example metadata tables (no raw sequencing data)
+│   └── example_metadata/        # Example metadata tables (no raw sequencing data)
 ├── scripts/
-│ ├── 01_qc/ # QC and filtering
-│ ├── 02_normalization/ # Normalization and scaling
-│ ├── 03_integration/ # Dataset integration (e.g. Harmony, Seurat)
-│ ├── 04_clustering/ # Dimensionality reduction and clustering
-│ ├── 05_annotation/ # Cell type annotation
-│ └── 06_downstream/ # Differential expression, pathway analysis, ML
-├── envs/ # Conda / R environment specifications
-├── figures/ # Generated figures (PNG/PDF)
-├── results/ # Result tables and summaries
+│   ├── 01_qc/                   # QC and filtering
+│   ├── 02_normalization/        # Normalization and scaling
+│   ├── 03_integration/          # Dataset integration (Harmony, Seurat)
+│   ├── 04_clustering/           # Dimensionality reduction and clustering
+│   ├── 05_annotation/           # Cell type annotation
+│   └── 06_downstream/           # DE, pathway analysis, ML
+├── envs/                        # Conda / R environment specifications
+├── figures/                     # Generated figures (PNG/PDF)
+├── results/                     # Result tables and summaries
 └── README.md
+
 
 ---
 
