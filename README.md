@@ -1,5 +1,7 @@
 # snRNAseq-workflows
 
+📄 **Full analytical methods are documented in [`METHODS.md`](METHODS.md).**
+
 **Languages:** R, Python  
 **Frameworks:** Seurat, Harmony, scVI 
 
