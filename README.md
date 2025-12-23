@@ -60,10 +60,12 @@ snRNAseq-workflows/
    - Reference-guided approaches when applicable
 
 6. **Downstream analysis**
-   - Differential expression
-   - Pathway enrichment
+   - Differential expression (cell-type specific, pseudobulk)
+   - Over-representation analysis (GO / KEGG)
+   - Gene set enrichment analysis (GSEA)
+   - Pathway–gene network visualization
    - Cell composition analysis
-   - Machine learning–based representations (scVI)
+   - Machine-learning–based representations (scVI latent space)
 
 ---
 
@@ -155,6 +157,17 @@ Users are encouraged to adapt thresholds and parameters to their own datasets
 and to validate findings using complementary approaches.
 
 ---
+
+## 🔁 Workflow logic & decision points
+
+The execution order, optional branches, and methodological decisions
+(e.g. CellBender vs scds, subclustering strategy, scVI usage)
+are documented in:
+
+📄 `scripts/workflow_overview.md`
+
+This separation keeps the README concise while preserving full
+methodological transparency.
 
 ## 🎯 Intended audience
 
